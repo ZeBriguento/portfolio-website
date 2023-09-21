@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  
+  <!-- shortcut icon -->
+  <link rel="shortcut icon" href="./assets/images/cloud-refresh-outline.svg" type="image/x-icon">
+  
+  <title>Portfolio Web</title>
+  <!-- Font -->
+
+  
+</head>
+<!-- <body class="dark:bg-black"> -->
+    <body>
+
+    <header class="mt-8">
+        <nav class="flex justify-between items-center w-[93%] mx-auto min-w-[350px] ">
+            <div>
+                <a href="#">
+                <img class="w-16" src="./assets/images/cloud-refresh-outline.svg" alt="">
+            </a>
+            </div>
+            <div class="nav-links duration-500 md:static md:min-h-fit md:w-auto absolute  min-h-[50vh] left-0 top-[-100%] w-full flex items-center px-5">
+                <ul class="flex flex-col md:items-center md:flex-row md:gap-[4vw] gap-8">
+                    <li><a href="#" class="uppercase duration-200 ease-in hover:text-secundaryColor sm:text-secundaryColor md:text-white lg:text-white">Início</a></li>
+                    <li><a href="#" class="uppercase duration-200 ease-in hover:text-secundaryColor sm:text-secundaryColor md:text-white lg:text-white">Softwares</a></li>
+                    <li><a href="#" class="uppercase duration-200 ease-in hover:text-secundaryColor sm:text-secundaryColor md:text-white lg:text-white">Contactos</a></li> 
+                    <li><a href="#" class="uppercase duration-200 ease-in hover:text-secundaryColor sm:text-secundaryColor md:text-white lg:text-white">Sobre</a></li>
+                 </ul>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="uppercase btn btn-primary">Login</button>
+                <button class="uppercase btn btn-primary">Sign Up</button>
+                <iconify-icon icon="lucide:menu" class="text-3xl cursor-pointer text-secundaryColor md:hidden" onclick="onToggleMenu(this)"></iconify-icon>
+            </div>
+        </nav>
+    </header>
+        
+    <main>
+          <section id="home">
+            <div class=" w-[93%] mx-auto flex flex-col items-center gap-10 md:flex-row">
+                <div class="text-center sm:space-y-2 md:space-y-2 md:basis-1/2 md:text-start lg:basis-3/5">
+                    <h1 class="home_title">Inovação</h1>
+                    <h2 class="home_subtitle">tecnológica</h2>
+                    <h3 class="home_paragath_one">Segurança dos seus dados</h3>
+            <p class=" home_paragath_two">Tecnologia é um produto da ciência e da engenharia 
+                que envolve um conjunto de instrumentos, métodos
+                e técnicas  que visam a resolução de problemas.</p>
+                <div>
+                    <a href="#" class="btn btn-primary">Saber mais...</a>
+                </div>
+                </div>
+                <div class="mx-auto md:basis-1/2 lg:basis-2/5 lg:w-full animate-movingY">
+                    <img src="./assets/images/image.png" class="w-80" alt="">
+                </div>
+            </div>
+          </section>  
+    </main>
+    <main>
+       
+        <div  class="mt-10">
+            <div class="w-[93%] mx-auto flex flex-col md:flex-row lg:flex-row justify-between items-center">
+
+              <div class="text-center uppercase">
+               <a href="#"> <iconify-icon icon="material-symbols:verified-user-outline" class="p-2 text-white rounded-full bg-secundaryColor" width="40"></iconify-icon>
+               </a>
+                <br>
+                    Segurança
+              </div>
+              <div class="separator">
+              </div>
+            <div class="text-center uppercase">
+               
+                <a href="#">
+                <iconify-icon icon="material-symbols:language" class="p-2 text-white rounded-full bg-secundaryColor" width="40"></iconify-icon>
+            </a>
+                <br>
+            Mobilidade
+            </div>
+              <div class="separator"> 
+            </div>
+             <div class="text-center uppercase">
+               
+               
+                    <a href="#">
+                    <iconify-icon icon="material-symbols:settings-backup-restore" class="p-2 text-white rounded-full bg-secundaryColor" width="40"></iconify-icon>
+                </a>
+                    <br>
+                Armazenamento
+               
+             </div>
+           
+            </div>
+        </div>
+    </main>
+    <p class="absolute top-0 left-0 text-gray-600 uppercase">Desenvolvido por Zé Briguento</p>
+    <div class="absolute right-0 inline-block mb-0 mr-5 bottom-2" >
+        <iconify-icon id="theme-toggle" icon="radix-icons:moon"  width="25px"style="color: yellow;" class="cursor-pointer"></iconify-icon>   
+    </div> 
+ 
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
